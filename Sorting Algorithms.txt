@@ -1,0 +1,28 @@
+Sorting Algorithms:
+
+A. Selection Sort:
+In this algorithm we first have an unsorted array n we start from the zeroth index considering it the smallest element.
+This element is compared with next element. The smallest one is checked n if found a swap is done.
+Counter is incremented and Same comparition n condition swap is made with next element too.
+Same logic till the last element of the array.
+We now have the smallest element in the array n it's position is at zeroth index.
+
+Now the remaining array from first index to last is still unsorted. Now All the steps repeat again to find the second smallest element for index=1.
+Then remaining array is unsorted n steps repeat for smallest element at index=2.
+n so on.
+Finally we have a sorted array.
+
+
+B. Bubble sort:
+Bubble sort uses the method of adjacent swapping.
+Starting from the 0th index comparision is made with the 0th n 1st element comparision is made for smallest element n if just this adjacent pair is sorted then counter is moved to next pair n if this adjacent pair is not sorted then a swap happens. Same steps are done till the last element.
+again the process is started all over from the beginning n repeated (n-1) times for an array of length (n).
+finally We get a sorted array.
+
+
+C. Insertion sort:
+For a given array of length (n) the element at zeroth index is not skipped n element at index- 1 is taken n let's say marked.
+This marked element is compared with all the previous elements (for now just the element at index-0) n based on comparision at the present position of the marked element the element is moved or copied if it is larger than the marked element. If not the loop breaks n outer loop runs.
+The outer loop then marks the next element and same comparision with all the previous elements is done one by one. Simply while comparision from the marked element to the index-0 element each time larger elements shift towards end n smaller elements move towards the beginning of the array.
+By far this is the best sorting algorithm of the mentioned algorithms. It does n't use swapping n it's time complexity is generally O(n).
+ 
