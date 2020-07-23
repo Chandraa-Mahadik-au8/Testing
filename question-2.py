@@ -1,8 +1,10 @@
-def reverseString(s):
-    l = len(s)
-    if l > 0:
-        print(s[slice(l - 1, l)])
-        s = slice(-1)
-        reverseString(s)
-        
-reverseString("abcd")
+def subStringFn (s):
+    def singleChar(i):
+        i = 0
+        if i < len(s):
+            print(s[i])
+            i += 1
+            singleChar(i)
+subStringFn('abc')
+
+#Need to work on this code.
